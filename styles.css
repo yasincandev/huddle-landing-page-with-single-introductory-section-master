@@ -19,27 +19,27 @@ body {
   width: 100%;
   height: 100vh;
 }
-header {
-  height: 50px;
-}
-
-header img {
-  padding: 5rem 0px 0px 5rem;
+main {
+  padding: 5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container {
-  padding: 10rem;
   display: flex;
   flex-direction: row;
   gap: 5rem;
-  margin-top: 5rem;
 }
 
 .right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 600px;
+}
+
+footer {
+  margin-left: auto;
 }
 
 footer img {
@@ -80,6 +80,5 @@ button {
 }
 
 .button {
-  padding-right: 28rem;
   margin-top: 2em;
 }
