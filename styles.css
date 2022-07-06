@@ -46,14 +46,28 @@ main {
   justify-content: center;
 }
 
-footer {
+.social {
   margin-left: auto;
+  display: flex;
 }
 
-footer img {
-  width: 32px;
-  height: 32px;
-  border: 1px solid white;
+.social i {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.social i:hover {
+  cursor: pointer;
+  background-color: var(--soft-magenta);
+  transition: 0.5s;
+  color: #ffffff;
 }
 
 .heading {
